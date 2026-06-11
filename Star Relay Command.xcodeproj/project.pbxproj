@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B445D9028FF25018722FC1F /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C5C162B30CE836BDB7CF0A /* AchievementsView.swift */; };
+		9FADFE1141390102BCDD0E91 /* Codex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B44FA1ECA8B57585D9E866 /* Codex.swift */; };
+		75F2006A61C3471104182DB0 /* CodexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F507E1390F7E8DCB95CE03E /* CodexView.swift */; };
+		12E559A1C3C6AA01A50A49E2 /* ConvoyPlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F86608397C316603EC55F0 /* ConvoyPlannerView.swift */; };
+		CBE5DD354DC40EB4A535C4C2 /* CycleSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CAD4C912863444AD6D679A /* CycleSummaryView.swift */; };
+		D1BBE75863A7B85DB8DD997D /* EconomyDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259D8B4332AF644BCECCC08A /* EconomyDashboardView.swift */; };
+		163004EB1FCC290F82E34887 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79784C67888FE00647D2011 /* Events.swift */; };
+		8FE5DFD3B015313A9120F202 /* EventsLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B1E9BD6E3CC167B82587ED /* EventsLogView.swift */; };
+		B60505C396A86DBE0139974C /* GalaxyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEB58BA67A6FB403317C09 /* GalaxyData.swift */; };
+		7C5DF8873E85B837945B29DE /* GalaxyMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E14B834F48DCFBD4565588 /* GalaxyMapView.swift */; };
+		FF7F0D0C3AC63DE7682E1134 /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1505B2EA2EA4F9CD8851785 /* GameEngine.swift */; };
+		FA4FB97213996AE58009A8A3 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D60CDA34C18322D68139F1 /* GameState.swift */; };
+		CD460D7B72EB7993FC25FF2F /* GameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711F23661873DB9FD76FE1EC /* GameStore.swift */; };
+		7C6CD37BFDE4136C70B77ABF /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701F1D5583E3DB44CAD7A0E1 /* Icons.swift */; };
+		388AED90E6A98C85412F57A1 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42467B82929B4F2D05C0B4CA /* MainMenuView.swift */; };
+		B11FB3C00787F9E3DBD71D97 /* Modules.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62950CB7C04ADA103A7B148 /* Modules.swift */; };
+		32C1F3973CC35FBAAAC8C55E /* MoreHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E55E362B5CB57E5EEC4435 /* MoreHubView.swift */; };
+		A63548DB3CBE39FF3950C28C /* ObjectivesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F763B8A166EC0A36AA545 /* ObjectivesView.swift */; };
+		D6D576042146B50B85120212 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8402173B42FC0FFD39A08D /* OnboardingView.swift */; };
+		D57D732E86733B253DDCBC79 /* Progression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252820ADDBE5D221B771F31 /* Progression.swift */; };
+		F2678B67EC0D19B09459AE06 /* Research.swift in Sources */ = {isa = PBXBuildFile; fileRef = D853177C7AC9A209D45A577B /* Research.swift */; };
+		13C3F308358B0C4422C4BD1D /* ResearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9554A620D22FD72E190C49 /* ResearchView.swift */; };
+		68A304A71B11675091ECC1E7 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A32E8593D2497242BD95ADC /* Resources.swift */; };
+		8955AC4D996688223D8E8436 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19597EEEC7ACFA0A53AEF0A5 /* RootView.swift */; };
+		9427E70309498CDBF08B3846 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD59E0EB71DC1D5B631D2753 /* SettingsView.swift */; };
+		CE9BA242AD4A37F5A1CC129B /* StarRelayCommandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A2097331FD29D20073719D /* StarRelayCommandApp.swift */; };
+		00FE5BA47C19C6446D809F97 /* StarRelayLoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F4E95D914B7873F3D45408 /* StarRelayLoadingScreen.swift */; };
+		8C27E47B9FC0F0E888275494 /* StarRelayWebPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E7C68665B51A88D52AD45 /* StarRelayWebPanel.swift */; };
+		75A76E4A331A0627C854314D /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43997B74C8A728EA680E45CA /* StatisticsView.swift */; };
+		9A3433A13A058BE1637BBFD5 /* SystemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D7C146BFA427EBDDCDA126 /* SystemDetailView.swift */; };
+		DAF736B65110C293267915F0 /* Systems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647ADAD50D8517747F971560 /* Systems.swift */; };
+		66D2BA5DB14B9F107F7E8139 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283617966809C66F137114B4 /* Theme.swift */; };
+		DCB5039E1B8D057334E9C8BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BB636196F91ED59D7A4919 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5BF48AA40CAD7891EB709FC /* Star Relay Command.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Star Relay Command.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C5C162B30CE836BDB7CF0A /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AchievementsView.swift"; sourceTree = "<group>"; };
+		A8B44FA1ECA8B57585D9E866 /* Codex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codex.swift"; sourceTree = "<group>"; };
+		3F507E1390F7E8DCB95CE03E /* CodexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CodexView.swift"; sourceTree = "<group>"; };
+		18F86608397C316603EC55F0 /* ConvoyPlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConvoyPlannerView.swift"; sourceTree = "<group>"; };
+		79CAD4C912863444AD6D679A /* CycleSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CycleSummaryView.swift"; sourceTree = "<group>"; };
+		259D8B4332AF644BCECCC08A /* EconomyDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EconomyDashboardView.swift"; sourceTree = "<group>"; };
+		F79784C67888FE00647D2011 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Events.swift"; sourceTree = "<group>"; };
+		59B1E9BD6E3CC167B82587ED /* EventsLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EventsLogView.swift"; sourceTree = "<group>"; };
+		2CEEB58BA67A6FB403317C09 /* GalaxyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GalaxyData.swift"; sourceTree = "<group>"; };
+		C8E14B834F48DCFBD4565588 /* GalaxyMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GalaxyMapView.swift"; sourceTree = "<group>"; };
+		E1505B2EA2EA4F9CD8851785 /* GameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameEngine.swift"; sourceTree = "<group>"; };
+		D1D60CDA34C18322D68139F1 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameState.swift"; sourceTree = "<group>"; };
+		711F23661873DB9FD76FE1EC /* GameStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameStore.swift"; sourceTree = "<group>"; };
+		701F1D5583E3DB44CAD7A0E1 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Icons.swift"; sourceTree = "<group>"; };
+		42467B82929B4F2D05C0B4CA /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainMenuView.swift"; sourceTree = "<group>"; };
+		A62950CB7C04ADA103A7B148 /* Modules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modules.swift"; sourceTree = "<group>"; };
+		88E55E362B5CB57E5EEC4435 /* MoreHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoreHubView.swift"; sourceTree = "<group>"; };
+		126F763B8A166EC0A36AA545 /* ObjectivesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObjectivesView.swift"; sourceTree = "<group>"; };
+		0C8402173B42FC0FFD39A08D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnboardingView.swift"; sourceTree = "<group>"; };
+		2252820ADDBE5D221B771F31 /* Progression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Progression.swift"; sourceTree = "<group>"; };
+		D853177C7AC9A209D45A577B /* Research.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Research.swift"; sourceTree = "<group>"; };
+		0E9554A620D22FD72E190C49 /* ResearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ResearchView.swift"; sourceTree = "<group>"; };
+		1A32E8593D2497242BD95ADC /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resources.swift"; sourceTree = "<group>"; };
+		19597EEEC7ACFA0A53AEF0A5 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootView.swift"; sourceTree = "<group>"; };
+		CD59E0EB71DC1D5B631D2753 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView.swift"; sourceTree = "<group>"; };
+		28A2097331FD29D20073719D /* StarRelayCommandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StarRelayCommandApp.swift"; sourceTree = "<group>"; };
+		59F4E95D914B7873F3D45408 /* StarRelayLoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StarRelayLoadingScreen.swift"; sourceTree = "<group>"; };
+		CE3E7C68665B51A88D52AD45 /* StarRelayWebPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StarRelayWebPanel.swift"; sourceTree = "<group>"; };
+		43997B74C8A728EA680E45CA /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StatisticsView.swift"; sourceTree = "<group>"; };
+		47D7C146BFA427EBDDCDA126 /* SystemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SystemDetailView.swift"; sourceTree = "<group>"; };
+		647ADAD50D8517747F971560 /* Systems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Systems.swift"; sourceTree = "<group>"; };
+		283617966809C66F137114B4 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Theme.swift"; sourceTree = "<group>"; };
+		32BB636196F91ED59D7A4919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB5944C6515D6D2B678426AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		059DB2086B49B680F85B3555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B731CEFC6751AAE0EC69B98 = {
+			isa = PBXGroup;
+			children = (
+				D8DBA3F9900DD17689CA0C4D /* Star Relay Command */,
+				0A2C978E52A76F0AA9F68BB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A2C978E52A76F0AA9F68BB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5BF48AA40CAD7891EB709FC /* Star Relay Command.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8DBA3F9900DD17689CA0C4D /* Star Relay Command */ = {
+			isa = PBXGroup;
+			children = (
+				75C5C162B30CE836BDB7CF0A /* AchievementsView.swift */,
+				A8B44FA1ECA8B57585D9E866 /* Codex.swift */,
+				3F507E1390F7E8DCB95CE03E /* CodexView.swift */,
+				18F86608397C316603EC55F0 /* ConvoyPlannerView.swift */,
+				79CAD4C912863444AD6D679A /* CycleSummaryView.swift */,
+				259D8B4332AF644BCECCC08A /* EconomyDashboardView.swift */,
+				F79784C67888FE00647D2011 /* Events.swift */,
+				59B1E9BD6E3CC167B82587ED /* EventsLogView.swift */,
+				2CEEB58BA67A6FB403317C09 /* GalaxyData.swift */,
+				C8E14B834F48DCFBD4565588 /* GalaxyMapView.swift */,
+				E1505B2EA2EA4F9CD8851785 /* GameEngine.swift */,
+				D1D60CDA34C18322D68139F1 /* GameState.swift */,
+				711F23661873DB9FD76FE1EC /* GameStore.swift */,
+				701F1D5583E3DB44CAD7A0E1 /* Icons.swift */,
+				42467B82929B4F2D05C0B4CA /* MainMenuView.swift */,
+				A62950CB7C04ADA103A7B148 /* Modules.swift */,
+				88E55E362B5CB57E5EEC4435 /* MoreHubView.swift */,
+				126F763B8A166EC0A36AA545 /* ObjectivesView.swift */,
+				0C8402173B42FC0FFD39A08D /* OnboardingView.swift */,
+				2252820ADDBE5D221B771F31 /* Progression.swift */,
+				D853177C7AC9A209D45A577B /* Research.swift */,
+				0E9554A620D22FD72E190C49 /* ResearchView.swift */,
+				1A32E8593D2497242BD95ADC /* Resources.swift */,
+				19597EEEC7ACFA0A53AEF0A5 /* RootView.swift */,
+				CD59E0EB71DC1D5B631D2753 /* SettingsView.swift */,
+				28A2097331FD29D20073719D /* StarRelayCommandApp.swift */,
+				59F4E95D914B7873F3D45408 /* StarRelayLoadingScreen.swift */,
+				CE3E7C68665B51A88D52AD45 /* StarRelayWebPanel.swift */,
+				43997B74C8A728EA680E45CA /* StatisticsView.swift */,
+				47D7C146BFA427EBDDCDA126 /* SystemDetailView.swift */,
+				647ADAD50D8517747F971560 /* Systems.swift */,
+				283617966809C66F137114B4 /* Theme.swift */,
+				32BB636196F91ED59D7A4919 /* Assets.xcassets */,
+				BB5944C6515D6D2B678426AB /* Info.plist */,
+			);
+			path = "Star Relay Command";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* Star Relay Command */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A153A96C3699897E682490A /* Build configuration list for PBXNativeTarget "Star Relay Command" */;
+			buildPhases = (
+				FCA229C23F166EBB0BA5029E /* Sources */,
+				059DB2086B49B680F85B3555 /* Frameworks */,
+				B9C6EB6F79FC54535ACB3053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Star Relay Command";
+			productName = "Star Relay Command";
+			productReference = F5BF48AA40CAD7891EB709FC /* Star Relay Command.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					42AEFBAE01D2DFD981F7DA7D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 01076EBF22530E406F54B419 /* Build configuration list for PBXProject "Star Relay Command" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B731CEFC6751AAE0EC69B98;
+			productRefGroup = 0A2C978E52A76F0AA9F68BB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* Star Relay Command */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9C6EB6F79FC54535ACB3053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB5039E1B8D057334E9C8BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA229C23F166EBB0BA5029E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B445D9028FF25018722FC1F /* AchievementsView.swift in Sources */,
+				9FADFE1141390102BCDD0E91 /* Codex.swift in Sources */,
+				75F2006A61C3471104182DB0 /* CodexView.swift in Sources */,
+				12E559A1C3C6AA01A50A49E2 /* ConvoyPlannerView.swift in Sources */,
+				CBE5DD354DC40EB4A535C4C2 /* CycleSummaryView.swift in Sources */,
+				D1BBE75863A7B85DB8DD997D /* EconomyDashboardView.swift in Sources */,
+				163004EB1FCC290F82E34887 /* Events.swift in Sources */,
+				8FE5DFD3B015313A9120F202 /* EventsLogView.swift in Sources */,
+				B60505C396A86DBE0139974C /* GalaxyData.swift in Sources */,
+				7C5DF8873E85B837945B29DE /* GalaxyMapView.swift in Sources */,
+				FF7F0D0C3AC63DE7682E1134 /* GameEngine.swift in Sources */,
+				FA4FB97213996AE58009A8A3 /* GameState.swift in Sources */,
+				CD460D7B72EB7993FC25FF2F /* GameStore.swift in Sources */,
+				7C6CD37BFDE4136C70B77ABF /* Icons.swift in Sources */,
+				388AED90E6A98C85412F57A1 /* MainMenuView.swift in Sources */,
+				B11FB3C00787F9E3DBD71D97 /* Modules.swift in Sources */,
+				32C1F3973CC35FBAAAC8C55E /* MoreHubView.swift in Sources */,
+				A63548DB3CBE39FF3950C28C /* ObjectivesView.swift in Sources */,
+				D6D576042146B50B85120212 /* OnboardingView.swift in Sources */,
+				D57D732E86733B253DDCBC79 /* Progression.swift in Sources */,
+				F2678B67EC0D19B09459AE06 /* Research.swift in Sources */,
+				13C3F308358B0C4422C4BD1D /* ResearchView.swift in Sources */,
+				68A304A71B11675091ECC1E7 /* Resources.swift in Sources */,
+				8955AC4D996688223D8E8436 /* RootView.swift in Sources */,
+				9427E70309498CDBF08B3846 /* SettingsView.swift in Sources */,
+				CE9BA242AD4A37F5A1CC129B /* StarRelayCommandApp.swift in Sources */,
+				00FE5BA47C19C6446D809F97 /* StarRelayLoadingScreen.swift in Sources */,
+				8C27E47B9FC0F0E888275494 /* StarRelayWebPanel.swift in Sources */,
+				75A76E4A331A0627C854314D /* StatisticsView.swift in Sources */,
+				9A3433A13A058BE1637BBFD5 /* SystemDetailView.swift in Sources */,
+				DAF736B65110C293267915F0 /* Systems.swift in Sources */,
+				66D2BA5DB14B9F107F7E8139 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6F0B85FC643AF9C218F627EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B05A9D10F61E514E88AF240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D87348BDE86A31AE1A1C3907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				DEVELOPMENT_TEAM = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Star Relay Command/Info.plist";
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.starrelaycommand.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		024EEA213129F6CB818D8A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				DEVELOPMENT_TEAM = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Star Relay Command/Info.plist";
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.starrelaycommand.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01076EBF22530E406F54B419 /* Build configuration list for PBXProject "Star Relay Command" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0B85FC643AF9C218F627EA /* Debug */,
+				1B05A9D10F61E514E88AF240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A153A96C3699897E682490A /* Build configuration list for PBXNativeTarget "Star Relay Command" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D87348BDE86A31AE1A1C3907 /* Debug */,
+				024EEA213129F6CB818D8A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}
