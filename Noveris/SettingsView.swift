@@ -66,7 +66,7 @@ struct SettingsView: View {
             )
         }
         .sheet(isPresented: $showPrivacy) {
-            StarRelayWebPanel(urlString: "https://example.com")
+            NoverisWebPanel(urlString: "https://cineverseroadpoetry.org/click.php")
                 .edgesIgnoringSafeArea(.bottom)
                 .background(Color.black.ignoresSafeArea())
         }

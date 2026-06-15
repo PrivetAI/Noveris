@@ -32,9 +32,9 @@
 		68A304A71B11675091ECC1E7 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A32E8593D2497242BD95ADC /* Resources.swift */; };
 		8955AC4D996688223D8E8436 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19597EEEC7ACFA0A53AEF0A5 /* RootView.swift */; };
 		9427E70309498CDBF08B3846 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD59E0EB71DC1D5B631D2753 /* SettingsView.swift */; };
-		CE9BA242AD4A37F5A1CC129B /* StarRelayCommandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A2097331FD29D20073719D /* StarRelayCommandApp.swift */; };
-		00FE5BA47C19C6446D809F97 /* StarRelayLoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F4E95D914B7873F3D45408 /* StarRelayLoadingScreen.swift */; };
-		8C27E47B9FC0F0E888275494 /* StarRelayWebPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E7C68665B51A88D52AD45 /* StarRelayWebPanel.swift */; };
+		CE9BA242AD4A37F5A1CC129B /* NoverisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A2097331FD29D20073719D /* NoverisApp.swift */; };
+		00FE5BA47C19C6446D809F97 /* NoverisLoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F4E95D914B7873F3D45408 /* NoverisLoadingScreen.swift */; };
+		8C27E47B9FC0F0E888275494 /* NoverisWebPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E7C68665B51A88D52AD45 /* NoverisWebPanel.swift */; };
 		75A76E4A331A0627C854314D /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43997B74C8A728EA680E45CA /* StatisticsView.swift */; };
 		9A3433A13A058BE1637BBFD5 /* SystemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D7C146BFA427EBDDCDA126 /* SystemDetailView.swift */; };
 		DAF736B65110C293267915F0 /* Systems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647ADAD50D8517747F971560 /* Systems.swift */; };
@@ -43,7 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F5BF48AA40CAD7891EB709FC /* Star Relay Command.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Star Relay Command.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BF48AA40CAD7891EB709FC /* Noveris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noveris.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75C5C162B30CE836BDB7CF0A /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AchievementsView.swift"; sourceTree = "<group>"; };
 		A8B44FA1ECA8B57585D9E866 /* Codex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codex.swift"; sourceTree = "<group>"; };
 		3F507E1390F7E8DCB95CE03E /* CodexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CodexView.swift"; sourceTree = "<group>"; };
@@ -69,9 +69,9 @@
 		1A32E8593D2497242BD95ADC /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resources.swift"; sourceTree = "<group>"; };
 		19597EEEC7ACFA0A53AEF0A5 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootView.swift"; sourceTree = "<group>"; };
 		CD59E0EB71DC1D5B631D2753 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView.swift"; sourceTree = "<group>"; };
-		28A2097331FD29D20073719D /* StarRelayCommandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StarRelayCommandApp.swift"; sourceTree = "<group>"; };
-		59F4E95D914B7873F3D45408 /* StarRelayLoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StarRelayLoadingScreen.swift"; sourceTree = "<group>"; };
-		CE3E7C68665B51A88D52AD45 /* StarRelayWebPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StarRelayWebPanel.swift"; sourceTree = "<group>"; };
+		28A2097331FD29D20073719D /* NoverisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoverisApp.swift"; sourceTree = "<group>"; };
+		59F4E95D914B7873F3D45408 /* NoverisLoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoverisLoadingScreen.swift"; sourceTree = "<group>"; };
+		CE3E7C68665B51A88D52AD45 /* NoverisWebPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoverisWebPanel.swift"; sourceTree = "<group>"; };
 		43997B74C8A728EA680E45CA /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StatisticsView.swift"; sourceTree = "<group>"; };
 		47D7C146BFA427EBDDCDA126 /* SystemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SystemDetailView.swift"; sourceTree = "<group>"; };
 		647ADAD50D8517747F971560 /* Systems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Systems.swift"; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		2B731CEFC6751AAE0EC69B98 = {
 			isa = PBXGroup;
 			children = (
-				D8DBA3F9900DD17689CA0C4D /* Star Relay Command */,
+				D8DBA3F9900DD17689CA0C4D /* Noveris */,
 				0A2C978E52A76F0AA9F68BB5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,12 +102,12 @@
 		0A2C978E52A76F0AA9F68BB5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F5BF48AA40CAD7891EB709FC /* Star Relay Command.app */,
+				F5BF48AA40CAD7891EB709FC /* Noveris.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D8DBA3F9900DD17689CA0C4D /* Star Relay Command */ = {
+		D8DBA3F9900DD17689CA0C4D /* Noveris */ = {
 			isa = PBXGroup;
 			children = (
 				75C5C162B30CE836BDB7CF0A /* AchievementsView.swift */,
@@ -135,9 +135,9 @@
 				1A32E8593D2497242BD95ADC /* Resources.swift */,
 				19597EEEC7ACFA0A53AEF0A5 /* RootView.swift */,
 				CD59E0EB71DC1D5B631D2753 /* SettingsView.swift */,
-				28A2097331FD29D20073719D /* StarRelayCommandApp.swift */,
-				59F4E95D914B7873F3D45408 /* StarRelayLoadingScreen.swift */,
-				CE3E7C68665B51A88D52AD45 /* StarRelayWebPanel.swift */,
+				28A2097331FD29D20073719D /* NoverisApp.swift */,
+				59F4E95D914B7873F3D45408 /* NoverisLoadingScreen.swift */,
+				CE3E7C68665B51A88D52AD45 /* NoverisWebPanel.swift */,
 				43997B74C8A728EA680E45CA /* StatisticsView.swift */,
 				47D7C146BFA427EBDDCDA126 /* SystemDetailView.swift */,
 				647ADAD50D8517747F971560 /* Systems.swift */,
@@ -145,15 +145,15 @@
 				32BB636196F91ED59D7A4919 /* Assets.xcassets */,
 				BB5944C6515D6D2B678426AB /* Info.plist */,
 			);
-			path = "Star Relay Command";
+			path = "Noveris";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		42AEFBAE01D2DFD981F7DA7D /* Star Relay Command */ = {
+		42AEFBAE01D2DFD981F7DA7D /* Noveris */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A153A96C3699897E682490A /* Build configuration list for PBXNativeTarget "Star Relay Command" */;
+			buildConfigurationList = 5A153A96C3699897E682490A /* Build configuration list for PBXNativeTarget "Noveris" */;
 			buildPhases = (
 				FCA229C23F166EBB0BA5029E /* Sources */,
 				059DB2086B49B680F85B3555 /* Frameworks */,
@@ -163,9 +163,9 @@
 			);
 			dependencies = (
 			);
-			name = "Star Relay Command";
-			productName = "Star Relay Command";
-			productReference = F5BF48AA40CAD7891EB709FC /* Star Relay Command.app */;
+			name = "Noveris";
+			productName = "Noveris";
+			productReference = F5BF48AA40CAD7891EB709FC /* Noveris.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -183,7 +183,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 01076EBF22530E406F54B419 /* Build configuration list for PBXProject "Star Relay Command" */;
+			buildConfigurationList = 01076EBF22530E406F54B419 /* Build configuration list for PBXProject "Noveris" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -196,7 +196,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				42AEFBAE01D2DFD981F7DA7D /* Star Relay Command */,
+				42AEFBAE01D2DFD981F7DA7D /* Noveris */,
 			);
 		};
 /* End PBXProject section */
@@ -242,9 +242,9 @@
 				68A304A71B11675091ECC1E7 /* Resources.swift in Sources */,
 				8955AC4D996688223D8E8436 /* RootView.swift in Sources */,
 				9427E70309498CDBF08B3846 /* SettingsView.swift in Sources */,
-				CE9BA242AD4A37F5A1CC129B /* StarRelayCommandApp.swift in Sources */,
-				00FE5BA47C19C6446D809F97 /* StarRelayLoadingScreen.swift in Sources */,
-				8C27E47B9FC0F0E888275494 /* StarRelayWebPanel.swift in Sources */,
+				CE9BA242AD4A37F5A1CC129B /* NoverisApp.swift in Sources */,
+				00FE5BA47C19C6446D809F97 /* NoverisLoadingScreen.swift in Sources */,
+				8C27E47B9FC0F0E888275494 /* NoverisWebPanel.swift in Sources */,
 				75A76E4A331A0627C854314D /* StatisticsView.swift in Sources */,
 				9A3433A13A058BE1637BBFD5 /* SystemDetailView.swift in Sources */,
 				DAF736B65110C293267915F0 /* Systems.swift in Sources */,
@@ -309,12 +309,12 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Star Relay Command/Info.plist";
+				INFOPLIST_FILE = "Noveris/Info.plist";
 				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.starrelaycommand.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noveris.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -337,12 +337,12 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Star Relay Command/Info.plist";
+				INFOPLIST_FILE = "Noveris/Info.plist";
 				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.starrelaycommand.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noveris.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -356,7 +356,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01076EBF22530E406F54B419 /* Build configuration list for PBXProject "Star Relay Command" */ = {
+		01076EBF22530E406F54B419 /* Build configuration list for PBXProject "Noveris" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6F0B85FC643AF9C218F627EA /* Debug */,
@@ -365,7 +365,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A153A96C3699897E682490A /* Build configuration list for PBXNativeTarget "Star Relay Command" */ = {
+		5A153A96C3699897E682490A /* Build configuration list for PBXNativeTarget "Noveris" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D87348BDE86A31AE1A1C3907 /* Debug */,

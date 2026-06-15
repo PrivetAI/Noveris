@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct StarRelayLoadingScreen: View {
+struct NoverisLoadingScreen: View {
     @State private var pulse = false
     @State private var sweep = false
 
@@ -24,7 +24,7 @@ struct StarRelayLoadingScreen: View {
                         .animation(.easeInOut(duration: 1.1).repeatForever(autoreverses: true), value: pulse)
                 }
 
-                Text("STAR RELAY COMMAND")
+                Text("NOVERIS")
                     .font(.console(20, weight: .bold))
                     .tracking(3)
                     .foregroundColor(Brand.text)
