@@ -21,10 +21,10 @@ struct MainMenuView: View {
                         }
                         .animation(.easeInOut(duration: 1.6).repeatForever(autoreverses: true), value: glow)
 
-                        Text("STAR RELAY")
+                        Text("NOVERIS")
                             .font(.console(36, weight: .bold)).tracking(6)
                             .foregroundColor(Brand.text)
-                        Text("C O M M A N D")
+                        Text("N E T W O R K")
                             .font(.console(16, weight: .semibold)).tracking(10)
                             .foregroundColor(Brand.cyan)
                         Text("Command a cluster-spanning relay network")
